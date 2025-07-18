@@ -4,7 +4,7 @@ import Usernav from './Usernav'
 const UserHome = () => {
   return (
 
-         <div
+    <div
       style={{
         position: "relative",
         backgroundImage:
@@ -19,33 +19,33 @@ const UserHome = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            {/* User Profile Picture (optional) */}
+
             <div style={{ display: "flex", justifyContent: "center", margin: "30px 0" }}>
               <div
-  className="carousel-caption d-none d-md-block"
-  style={{
-    backgroundColor: "rgba(0, 0, 0, 0.5)",
-    borderRadius: "8px",
-    padding: "12px 20px",
-    maxWidth: "90%",
-    margin: "0 auto",
-    boxShadow: "0 3px 7px rgba(0,0,0,0.25)",
-    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-    color: "#fff",
-  }}
->
-  <h5 style={{ fontWeight: "700", fontSize: "1.5rem", marginBottom: "8px" }}>
-    Glad to have you here!
-  </h5>
-  <p style={{ fontSize: "1rem", lineHeight: "1.3" }}>
-    Your dashboard to manage your time and leaves.
-  </p>
-</div>
+                className="carousel-caption d-none d-md-block"
+                style={{
+                  backgroundColor: "rgba(0, 0, 0, 0.5)",
+                  borderRadius: "8px",
+                  padding: "12px 20px",
+                  maxWidth: "90%",
+                  margin: "0 auto",
+                  boxShadow: "0 3px 7px rgba(0,0,0,0.25)",
+                  fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+                  color: "#fff",
+                }}
+              >
+                <h5 style={{ fontWeight: "700", fontSize: "1.5rem", marginBottom: "8px" }}>
+                  Glad to have you here!
+                </h5>
+                <p style={{ fontSize: "1rem", lineHeight: "1.3" }}>
+                  Your dashboard to manage your time and leaves.
+                </p>
+              </div>
 
-              
+
             </div>
 
-            {/* Carousel */}
+
             <div
               id="carouselExampleCaptions"
               className="carousel slide"
@@ -131,9 +131,9 @@ const UserHome = () => {
         </div>
       </div>
     </div>
-            
-            )
-  
+
+  )
+
 }
 
 export default UserHome

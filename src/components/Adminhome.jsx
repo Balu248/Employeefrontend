@@ -12,12 +12,34 @@ const Adminhome = () => {
             minHeight: '100vh'
         }}>
 
-            
+
             <Adminnav />
             <div className="container">
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="row g-3">
+                            <div style={{ display: "flex", justifyContent: "center", margin: "30px 0" }}>
+                                <div
+                                    className="carousel-caption d-none d-md-block"
+                                    style={{
+                                        backgroundColor: "rgba(0, 0, 0, 0.5)",
+                                        borderRadius: "8px",
+                                        padding: "12px 20px",
+                                        maxWidth: "90%",
+                                        margin: "0 auto",
+                                        boxShadow: "0 3px 7px rgba(0,0,0,0.25)",
+                                        fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+                                        color: "#fff",
+                                    }}
+                                >
+                                    <h5 style={{ fontWeight: "700", fontSize: "1.5rem", marginBottom: "8px" }}>
+                                        Glad to have you here Boss!
+                                    </h5>
+                                    <p style={{ fontSize: "1rem", lineHeight: "1.3" }}>
+                                        Your dashboard to manage Employees.
+                                    </p>
+                                </div>
+                            </div>
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <div id="carouselExampleCaptions" class="carousel slide">
                                     <div style={{
@@ -25,7 +47,7 @@ const Adminhome = () => {
                                         justifyContent: "center",
                                         alignItems: "center",
                                         minHeight: "100vh",
-                                       
+
                                     }}>
                                         <div id="carouselExampleCaptions" className="carousel slide" style={{ maxWidth: "800px", width: "100%" }}>
                                             <div className="carousel-indicators">
@@ -75,9 +97,9 @@ const Adminhome = () => {
                 </div>
 
             </div>
-            </div>
-            
-            )
+        </div>
+
+    )
 }
 
-            export default Adminhome
+export default Adminhome
